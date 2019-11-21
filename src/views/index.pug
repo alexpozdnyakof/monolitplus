@@ -1,0 +1,14 @@
+doctype html
+html(lang='ru')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(http-equiv='X-UA-Compatible', content='ie=edge')
+    script(src="./vendor/webcomponents-bundle.js")
+    script(src="https://api-maps.yandex.ru/2.1/?apikey=61d55833-e88c-4afd-be02-52387bbf6d1d&lang=ru_RU" type="text/javascript")
+    link(rel="shortcut icon" href="favicon.ico" type="image/x-icon")
+    title= self.htmlWebpackPlugin.options.data.meta.title
+  body
+    include includes/header.pug
+
+    include includes/step.pug

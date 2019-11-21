@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": ["es2017", "dom"],
+    "types" : ["node", "yandex-maps"],
+    "declaration": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "experimentalDecorators": true
+  },
+  "compileOnSave": false,
+  "include": [
+    "index.d.ts",
+    "src/**/*.ts"
+  ],
+  "exclude": [],
+}
+
+

@@ -1,0 +1,67 @@
+@import "./utils/_normalize.scss";
+@import "./_grid.scss";
+@import "./_variables.scss";
+@import "./__typography.scss";
+@import "./__offer-card.scss";
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    width: 100%;
+    min-height: 100vh;
+    background: #fff;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    font-family: 'Rosbank-Muller', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--color-text);
+    text-size-adjust: 100%;
+    &::selection {
+        background: #e60028;
+    }
+}
+
+a {
+    font-family: 'Rosbank-Muller', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: var(--color-main);
+    text-decoration: none;
+    transition: color .2s cubic-bezier(.25, .46, .45, .94);
+    &:hover {
+        color: var(--color-main-a);
+    }
+}
+
+.rosa-button {
+    height: 36px;
+    background-color: #e60028;
+    padding: 0 26px 0 16px;
+}
+
+.offers {
+    margin-top: 60px;
+    .title {
+        text-transform: uppercase;
+        margin-bottom: 40px;
+    }
+}

@@ -1,0 +1,46 @@
+// grid variables
+:root {
+    --col-width: calc(0.1125 * 100vw);
+    --padding-width: calc(0.025 * 100vw);
+    --grid-offset: calc(0.1 * 100vw);
+    --grid-margin: calc(0.05 * 100vw);
+}
+
+$col-width: (0.1125 * 100vw);
+$padding-width: (0.025 * 100vw);
+$grid-offset: calc(0.1 * 100vw);
+$grid-margin: calc(0.05 * 100vw);
+$grid-offset_reverse: calc(0.1 * 100vw * -1);
+$grid-margin_reverse: calc(0.05 * 100vw * -1);
+// color variables
+:root {
+    --color-main: #e60028;
+    --color-main-a: #cf0024;
+    --color-text: #282423;
+    --color-secondary: #807d7d;
+    --color-gray-01: #c4c4c4;
+    --color-gray-02: #e6e6e6;
+    --color-gray-03: #f2f2f2;
+    --background-black: #282423;
+}
+
+///
+$color-main: #e60028;
+$color-main-a: #cf0024;
+$color-error: #c12929;
+$color-text: #282423;
+$color-secondary: #807d7d;
+$color-gray-01: #c4c4c4;
+$color-gray-02: #e6e6e6;
+$color-gray-03: #f2f2f2;
+$color-background-black: #282423;
+$colWidth: 11.25%;
+$paddingWidth: 2.5%;
+$gridOffset: 10%;
+$gridMargin: 5%;
+// breakpoints variables
+$mobile: "(max-width: 575.98px)";
+$phablet: "(min-width: 576px) and (max-width: 767.98px)";
+$tablet: "(min-width: 768px) and (max-width: 991.98px)";
+$display: "(min-width: 992px) and (max-width: 1199.98px)";
+$desktop: "(min-width: 1200px)";
